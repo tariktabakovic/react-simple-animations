@@ -32,4 +32,13 @@ const c2Style = {
     padding: '1.5rem'
 }
 
+const btn= {
+    background: '#333',
+    color: '#fff',
+    padding: '1rem 2rem',
+    border: 'none',
+    textTransform: 'uppercase',
+    margin: '15px 0'
+}
+
 export default Component2;
