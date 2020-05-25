@@ -10,11 +10,14 @@ class App extends Component {
     showComponent3: false
   }
 
+  toggle = e => this.setState({showComponent3:
+    !this.state.showComponent3});
+  
   render(){
     return (
       <div className= "App">
         <Component1 />
-        <Component2 />
+        <Component2 toggle={this.toggle}/>
         <Component3 />
       </div>
     );
