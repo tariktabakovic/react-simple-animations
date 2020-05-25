@@ -18,6 +18,7 @@ export class Component2 extends Component {
                                 ds
                                 fa sdflkajsdfklsa djfasd
                                 f sadfl dskfjasdfkljsdaflk </p> 
+                                <button style={btn} onClick={this.props.toggle}>Toggle Component 3</button>
                         </div>
                     </div>
                 )}
