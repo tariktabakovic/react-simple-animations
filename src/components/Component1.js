@@ -15,11 +15,12 @@ export default function  Component1(){
                             <Spring
                                 from={{number: 0}}
                                 to={{number: 10}}
+                                config={{duration: 10000}}
                             >
                                 {props=>(
                                     <div style={props}>
                                         <h1 style={counter}>
-                                            {props.number}
+                                            {props.number.toFixed()}
                                         </h1>
                                     </div>
                                 )}
